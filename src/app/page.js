@@ -26,6 +26,7 @@ export default function Home() {
       </Container>
       <Container>
         <MainCompContact></MainCompContact>
+        <MainCompContact></MainCompContact>
       </Container>
     </main>
   );
