@@ -5,16 +5,18 @@ export const TailwindcssIcon = () => {
       height="64"
       viewBox="0 0 106 64"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g clip-path="url(#clip0_316_324)">
         <mask
           id="mask0_316_324"
-          style="mask-type:luminance"
+          mask-type="luminance"
           maskUnits="userSpaceOnUse"
           x="0"
           y="0"
           width="106"
-          height="63">
+          height="63"
+        >
           <path d="M0.974121 0H105.701V62.8364H0.974121V0Z" fill="white" />
         </mask>
         <g mask="url(#mask0_316_324)">

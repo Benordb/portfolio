@@ -5,16 +5,18 @@ export const NextIcon = () => {
       height="64"
       viewBox="0 0 65 64"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g clip-path="url(#clip0_316_285)">
         <mask
           id="mask0_316_285"
-          style="mask-type:alpha"
+          mask-type="alpha"
           maskUnits="userSpaceOnUse"
           x="0"
           y="0"
           width="65"
-          height="64">
+          height="64"
+        >
           <path
             d="M32.4399 64C50.1131 64 64.4399 49.6731 64.4399 32C64.4399 14.3269 50.1131 0 32.4399 0C14.7668 0 0.439941 14.3269 0.439941 32C0.439941 49.6731 14.7668 64 32.4399 64Z"
             fill="black"
@@ -44,7 +46,8 @@ export const NextIcon = () => {
           y1="41.4222"
           x2="51.8177"
           y2="57.0666"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="white" />
           <stop offset="1" stop-color="white" stop-opacity="0" />
         </linearGradient>
@@ -54,7 +57,8 @@ export const NextIcon = () => {
           y1="19.2"
           x2="43.3907"
           y2="38"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="white" />
           <stop offset="1" stop-color="white" stop-opacity="0" />
         </linearGradient>
