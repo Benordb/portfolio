@@ -16,7 +16,7 @@ export const MainCompHeader = ({ handleClick, dark }) => {
             className="font-bold text-gray-900 dark:text-gray-50 text-3xl"
             href="#"
           >
-            TOM
+            BEN
           </a>
           <div className="sm:flex items-center gap-4 hidden">
             <ul className="flex gap-6">
@@ -42,7 +42,7 @@ export const MainCompHeader = ({ handleClick, dark }) => {
           </div>
         </div>
       </header>
-      <Drawer isOpen={isOpen} handleOpen={handleOpen}></Drawer>
+      <Drawer dark={dark} handleClick={handleClick} isOpen={isOpen} handleOpen={handleOpen}></Drawer>
     </div>
   );
 };

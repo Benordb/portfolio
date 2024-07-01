@@ -105,6 +105,3 @@ export const MainCompSkills = ({ isDark }) => {
     </Container>
   );
 };
-// if (item.iconName == "mongodb") {
-//   <MongoDBIcon color={isDark ? "white" : "black"} />;
-// }

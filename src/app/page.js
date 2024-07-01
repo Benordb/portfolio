@@ -16,7 +16,7 @@ export default function Home() {
   };
   return (
     <main className={`${isDark ? "dark" : ""}`}>
-      <div className="text-center text-gray-600 dark:bg-gray-950 dark:text-gray-300 blur-lg">
+      <div className="text-center text-gray-600 dark:bg-gray-950 dark:text-gray-300">
         <MainCompHeader dark={isDark} handleClick={handleClick} />
         <MainCompHi />
         <MainCompAboutme />
