@@ -6,7 +6,7 @@ export const MainCompHi = () => {
   return (
     <Container>
       <ContainerContent>
-        <div className="flex">
+        <div className="flex flex-col-reverse sm:flex-row ">
           <div className="flex-1 space-y-12 text-start">
             <div className="space-y-2">
               <h1 className="text-6xl font-bold text-gray-900 dark:text-gray-50">
@@ -27,7 +27,8 @@ export const MainCompHi = () => {
                 Ulaanbaatar,Mongolia
               </div>
               <div className="flex gap-4 ml-2 items-center">
-                <div className="bg-green-500 w-2 h-2 rounded-full"></div>
+                <div className="bg-green-500 w-2 h-2 rounded-full animate-ping"></div>
+                <div className="bg-green-500 w-2 h-2 rounded-full absolute"></div>
                 Available for new projects
               </div>
             </div>
@@ -37,8 +38,8 @@ export const MainCompHi = () => {
               <LuFigma />
             </div>
           </div>
-          <div className="flex-1 flex justify-end">
-            <div className="w-[17.5rem] h-80 bg-slate-500 border-8 border-white  shadow-hi"></div>
+          <div className="flex-1 flex justify-center mb-16 sm:mb-0 sm:justify-end sm:mr-10">
+            <div className="w-[17.5rem] h-80 bg-slate-500 border-8 border-white shadow-[0px_25px_0px_10px_#e5e7eb] sm:shadow-[40px_40px_#e5e7eb]"></div>
           </div>
         </div>
       </ContainerContent>
