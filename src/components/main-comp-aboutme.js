@@ -36,7 +36,7 @@ export const MainCompAboutme = () => {
   return (
     <Container background="bg-gray-50 dark:bg-gray-900">
       <ContainerContent>
-        <ContentButton children="About me" />
+        <ContentButton content="About me" />
         <div className="flex flex-col sm:flex-row">
           <div className="flex-1 flex justify-center sm:justify-start">
             <div className="w-[25rem] dark:w-[17.5rem] dark:h-[22.5rem] h-[30rem] bg-slate-500 border-8 mb-16 sm:mb-0 border-white shadow-[0px_25px_0px_10px_#e5e7eb]  sm:shadow-[-40px_40px_#e5e7eb]"></div>

@@ -13,7 +13,7 @@ export const WorkCard = ({ title, desc, skills, order }) => {
         <p>{desc}</p>
         <div className="flex flex-wrap gap-2">
           {skills.map((item, index) => (
-            <ContentButton>{item}</ContentButton>
+            <ContentButton key={index}>{item}</ContentButton>
           ))}
         </div>
       </div>

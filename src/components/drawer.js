@@ -3,7 +3,7 @@ import { IoMdClose } from "react-icons/io";
 export const Drawer = ({ isOpen, handleOpen, handleClick, dark }) => {
   return (
     <div
-      className={`fixed bg-white dark:text-white dark:bg-gray-950 w-80 h-full z-10 top-0 shadow-md left-full ${isOpen ? "-translate-x-80" : "translate-x-0"
+      className={`fixed bg-white dark:text-white dark:bg-gray-950 w-80 h-full z-10 top-0 dark:duration-0 duration-1000 shadow-md left-full ${isOpen ? "-translate-x-80" : "translate-x-0"
         } `}
     >
       <div className="flex justify-between p-4 border-b-2 border-gray-200 dark:border-gray-800">

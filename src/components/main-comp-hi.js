@@ -10,7 +10,7 @@ export const MainCompHi = () => {
           <div className="flex-1 space-y-12 text-start">
             <div className="space-y-2">
               <h1 className="text-6xl font-bold text-gray-900 dark:text-gray-50">
-                Hi, I'm Ben👋
+                {`Hi, I'm Ben`}
               </h1>
               <p>
                 I specialize in full stack development, particularly with
