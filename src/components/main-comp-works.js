@@ -50,9 +50,7 @@ export const MainCompWork = () => {
           title="Some of the noteworthy projects I have built:"
         />
         {data.map((item, index) => (
-          <WorkCard key={index} {...item}>
-            {item}
-          </WorkCard>
+          <WorkCard key={index} {...item} />
         ))}
       </div>
     </Container>

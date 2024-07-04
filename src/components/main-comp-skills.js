@@ -92,7 +92,7 @@ export const MainCompSkills = ({ isDark }) => {
       <div className="space-y-12">
         <ContentTitle
           title="The skills, tools and technologies I am really good at:"
-          buttonName="Skills"
+          buttonName="Skillsd"
         ></ContentTitle>
         <div className="grid grid-cols-3 sm:grid-cols-8">
           {data.map((item, index) => (
