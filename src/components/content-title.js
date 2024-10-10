@@ -5,7 +5,6 @@ export const ContentTitle = ({ title, buttonName }) => {
     <div className="space-y-4">
       <ContentButton content={buttonName} />
       <p className="max-w-xl m-auto">{title}</p>
-
     </div>
   );
 };
