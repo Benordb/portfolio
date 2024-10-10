@@ -37,9 +37,17 @@ export const MainCompAboutme = () => {
     <Container background="bg-gray-50 dark:bg-gray-900">
       <ContainerContent>
         <ContentButton content="About me" />
-        <div className="flex flex-col sm:flex-row">
+        <div id="about" className="flex flex-col sm:flex-row">
           <div className="flex-1 flex justify-center sm:justify-start">
-            <div className="w-[25rem] dark:w-[17.5rem] dark:h-[22.5rem] h-[30rem] bg-slate-500 border-8 mb-16 sm:mb-0 border-white shadow-[0px_25px_0px_10px_#e5e7eb]  sm:shadow-[-40px_40px_#e5e7eb]"></div>
+            <div
+              style={{
+                backgroundImage:
+                  "url(https://res.cloudinary.com/dqhguhv7o/image/upload/v1728547065/F7108EEC-1CDD-4D65-B900-0CC9C3EF14BD_wsmruf.jpg)",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+              className="w-[25rem] dark:w-[17.5rem] dark:h-[22.5rem] h-[30rem] bg-slate-500 border-8 mb-16 sm:mb-0 border-white shadow-[0px_25px_0px_10px_#e5e7eb]  sm:shadow-[-40px_40px_#e5e7eb]"
+            ></div>
           </div>
 
           {data.map((item, index) => (
@@ -47,11 +55,6 @@ export const MainCompAboutme = () => {
               {item}
             </AboutContent>
           ))}
-          {/* <ul className="grid grid-cols-2 list-disc  ml-4">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul> */}
         </div>
       </ContainerContent>
     </Container>

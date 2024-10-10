@@ -14,7 +14,7 @@ export const MainCompContact = () => {
   return (
     <Container>
       <ContainerContent>
-        <div className="space-y-12">
+        <div id="contact" className="space-y-12">
           <ContentTitle
             buttonName="Get in touch"
             title="What’s next? Feel free to reach out to me if you're looking

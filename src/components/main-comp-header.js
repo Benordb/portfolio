@@ -3,6 +3,7 @@ import { Container } from "./container";
 import { LuMenu } from "react-icons/lu";
 import { useState } from "react";
 import { Drawer } from "./drawer";
+import Link from "next/link";
 export const MainCompHeader = ({ handleClick, dark }) => {
   const [isOpen, setIsOpen] = useState(false);
   const handleOpen = () => {
@@ -12,18 +13,25 @@ export const MainCompHeader = ({ handleClick, dark }) => {
     <div>
       <header className="sm:px-20 px-4 py-4  max-w-screen-xl m-auto">
         <div className="sm:px-8 flex justify-between">
-          <a
-            className="font-bold text-gray-900 dark:text-gray-50 text-3xl"
-            href="#"
-          >
-            BEN
-          </a>
+          <Link href="/">
+            <div className="font-bold text-gray-900 dark:text-gray-50 text-3xl">
+              BEN
+            </div>
+          </Link>
           <div className="sm:flex items-center gap-4 hidden">
             <ul className="flex gap-6">
-              <li>About</li>
-              <li>Work</li>
-              <li>Testimonials</li>
-              <li>Contact</li>
+              <Link href="#about">
+                <li>About</li>
+              </Link>
+              <Link href="#experience">
+                <li>Experience</li>
+              </Link>
+              <Link href="#work">
+                <li>Work</li>
+              </Link>
+              <Link href="#contact">
+                <li>Contact</li>
+              </Link>
               <li className="border-[1px]"></li>
             </ul>
             <div onClick={handleClick}>
@@ -42,7 +50,12 @@ export const MainCompHeader = ({ handleClick, dark }) => {
           </div>
         </div>
       </header>
-      <Drawer dark={dark} handleClick={handleClick} isOpen={isOpen} handleOpen={handleOpen}></Drawer>
+      <Drawer
+        dark={dark}
+        handleClick={handleClick}
+        isOpen={isOpen}
+        handleOpen={handleOpen}
+      ></Drawer>
     </div>
   );
 };

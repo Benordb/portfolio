@@ -37,7 +37,7 @@ const data = [
 export const MainCompExperience = () => {
   return (
     <Container background="bg-gray-50 dark:bg-gray-900">
-      <div className="flex flex-col gap-12 items-center">
+      <div id="experience" className="flex flex-col gap-12 items-center">
         <ContentTitle
           buttonName="Experience"
           title="Here is a quick summary of my most recent experiences:"

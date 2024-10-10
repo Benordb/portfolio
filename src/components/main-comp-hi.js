@@ -2,6 +2,7 @@ import { GrLocation } from "react-icons/gr";
 import { LuFigma, LuGithub, LuTwitter } from "react-icons/lu";
 import { Container } from "./container";
 import { ContainerContent } from "./container-content";
+import Image from "next/image";
 export const MainCompHi = () => {
   return (
     <Container>
@@ -39,7 +40,15 @@ export const MainCompHi = () => {
             </div>
           </div>
           <div className="flex-1 flex justify-center mb-16 sm:mb-0 sm:justify-end sm:mr-10">
-            <div className="w-[17.5rem] h-80 bg-slate-500 border-8 border-white shadow-[0px_25px_0px_10px_#e5e7eb] sm:shadow-[40px_40px_#e5e7eb]"></div>
+            <div
+              style={{
+                backgroundImage:
+                  "url(https://res.cloudinary.com/dqhguhv7o/image/upload/v1728547065/IMG_5343_pu3wsy.jpg)",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+              }}
+              className="w-[17.5rem] h-80 bg-slate-500 border-8 border-white shadow-[0px_25px_0px_10px_#e5e7eb] sm:shadow-[40px_40px_#e5e7eb]"
+            ></div>
           </div>
         </div>
       </ContainerContent>
